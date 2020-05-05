@@ -11,12 +11,12 @@
     <Grid>
         <TextBlock HorizontalAlignment="Left" Margin="10,10,0,0" Text="App Package Installer" TextWrapping="Wrap" VerticalAlignment="Top" FontFamily="Aileron Thin" FontSize="33" SelectionChanged="TextBlock_SelectionChanged"/>
         <Button x:Name="select_file" Content="Select Main App Package" Height="36" Margin="10,50,0,0" VerticalAlignment="Top" Width="312" Click="Button_Click"/>
-        <Button Content="Install app" Margin="10,257,0,0" VerticalAlignment="Top" Height="36" Width="312" Click="Button_Click_1"/>
+        <Button Content="Install app" Margin="10,297,0,0" VerticalAlignment="Top" Height="36" Width="312" Click="Button_Click_1"/>
         <Button Content="Add Dependency" Margin="10,91,0,0" VerticalAlignment="Top" Width="312" Click="Button_Click_2"/>
-        <TextBlock HorizontalAlignment="Left" Margin="10,128,0,0" Text="Username" TextWrapping="Wrap" VerticalAlignment="Top"/>
-        <TextBlock HorizontalAlignment="Left" Margin="10,193,0,0" Text="Password" TextWrapping="Wrap" VerticalAlignment="Top"/>
-        <TextBox x:Name="username" HorizontalAlignment="Left" Height="36" Margin="10,152,0,0" Text="" TextWrapping="Wrap" VerticalAlignment="Top" Width="312"/>
-        <TextBox x:Name="password" HorizontalAlignment="Left" Height="35" Margin="10,217,0,0" Text="" TextWrapping="Wrap" VerticalAlignment="Top" Width="312"/>
-        <TextBlock HorizontalAlignment="Left" Margin="359,30,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="263" Width="262" FontSize="40"><Run Text="R"/><Run Text="emote "/><Run Text="A"/><Run Text="uthentication "/><Run Text="M"/><Run Text="ust"/><LineBreak/><Run Text="B"/><Run Text="e"/><LineBreak/><Run/><Run Text="E"/><Run Text="nabled"/></TextBlock>
+        <TextBlock HorizontalAlignment="Left" Margin="10,168,0,0" Text="Username" TextWrapping="Wrap" VerticalAlignment="Top"/>
+        <TextBlock HorizontalAlignment="Left" Margin="10,233,0,0" Text="Password" TextWrapping="Wrap" VerticalAlignment="Top"/>
+        <TextBox x:Name="username" HorizontalAlignment="Left" Height="36" Margin="10,192,0,0" Text="" TextWrapping="Wrap" VerticalAlignment="Top" Width="312" IsEnabled="False"/>
+        <TextBox x:Name="password" HorizontalAlignment="Left" Height="35" Margin="10,257,0,0" Text="" TextWrapping="Wrap" VerticalAlignment="Top" Width="312" IsEnabled="False"/>
+        <CheckBox x:Name="auth" Content="Authentication" Margin="10,131,0,0" VerticalAlignment="Top" Click="auth_Click"/>
     </Grid>
 </Page>
